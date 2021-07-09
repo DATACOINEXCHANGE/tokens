@@ -1,7 +1,15 @@
 ## Update token information
-You can fill [Google form](https://forms.gle/b8dPHFyGqfk5BVjw8) or create a PR on this repository
+There are 2 ways to update your token information in TomoChain's products.
 
-**How To Update Token Information**
+1. [Create an issue](https://github.com/tomochain/tokens/issues/new?assignees=thanhson1085%2C+khaihkd&labels=help+wanted&template=feature-request.md&title=)
+2. Create a pull request
+
+If you have any question, you can create [a "question" issue](https://github.com/tomochain/tokens/issues/new?assignees=&labels=question&template=question.md&title=).
+
+Your requests/questions will be processed before the first working day of the next month.
+
+
+**How To Update Token Information by a pull request**
 - Follow image requirements
 - Proceed to https://github.com/tomochain/tokens
 - Press on Fork in the top right corner, wait for process to complete
@@ -55,11 +63,9 @@ You can fill [Google form](https://forms.gle/b8dPHFyGqfk5BVjw8) or create a PR o
     
 }
 ```
+## Wrapped ERC-20 badger
+- Add the token address to `brigde.json`
 
-## Token Verification (blue tick)
-
-- Update file `verifiedlist.json`, add the token address and create a pull request
-
-## Token Black List
-
-- Update file `blacklist.json`, add the token address and create a pull request
+## Token Verification (blue tick) & Token Black List
+- `verifiedlist.json` list all tokens have blue tick
+- `blacklist.json` list all tokens in blacklist
